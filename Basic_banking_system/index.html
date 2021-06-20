@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>QuickCash Banking</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <!-- <a href="#" class="nav__logo">Tasty</a> -->
+                <img src="img/logo1.svg" alt="QuickCash Banking" class="nav__logo">
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="php/customer_table.php" class="nav__link">Customers</a></li>
+                        <li class="nav__item"><a href="#f_transfer" class="nav__link">Fund Transfer</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Banking Done Right</h1>
+                        <h2 class="home__subtitle">Get you finances <br> secured!</h2>
+                        <a href="#about" class="button">Know More</a>
+                    </div>
+    
+                    <img src="img/home.jpg" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+               
+                    <div class="about__data">
+                        <h2 class="section-title about__initial">About Us</h2>
+                        <p class="about__description">QuickCash Banking comes to you from an institution that has served the country’s banking needs for over a decade.We truly value your hard work and understand how important it is to you and your family. It is therefore, our continuous endeavour to provide you with an unmatched banking experience, through our simple products & services that can easily be accessed anytime, anywhere, and in your neighbourhood too.<br>We are a business and banking technology platform combined with extensive services delivery channel. As an alternate banking channel, we enable end-to-end customer sourcing and servicing.</p>
+                        <a href="#" class="button">Explore history</a>
+                    </div>
+
+                    
+            </section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Offering</span>
+                <h2 class="section-title">Our amazing services</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <img src="https://img.icons8.com/pastel-glyph/64/26e07f/security-checked--v1.png"/>
+                        <h3 class="services__title">Safe and Secure Banking</h3>
+                        <p class="services__description"> providing best security service to minimize the risk of fraud.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="https://img.icons8.com/pastel-glyph/64/26e07f/time-is-money--v2.png"/>
+                        <h3 class="services__title">Instant Fund Transfer</h3>
+                        <p class="services__description">sending money from one account to another account in just one click.</p>
+                    </div>
+
+                    <div class="services__content">
+                        <img src="https://img.icons8.com/pastel-glyph/64/26e07f/online-support.png" class="services__img">
+                        <h3 class="services__title">Availability</h3>
+                        <p class="services__description">Our support team is available 24*7 to attend all your queries.</p>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container">
+                <div class="contact__container ">
+                    <div class="contact__data">
+                        
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">For all your queries and fraud releated complaint you can contact us anytime (24*7) at <br>Mobile: +91-9876543210 <br>Email: quickcashbanking@email.com</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== FUND TRANSFER ==========-->
+            <section class="ftransfer section bd-container" id="f_transfer">
+                <h2 class="section-title contact__initial">Fund Transfer</h2>
+                    <div class="ftransfer__button bd-container" id="fund_transfer">
+                        <img  src="https://img.icons8.com/wired/64/26e07f/donate.png">
+                        <br>
+                        <a href="php/fundtransfer.php" class="button">Fund Transfer</a>
+                    </div>
+            </section>    
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">QuickCash Banking</a>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Mobile Banking</a></li>
+                        <li><a href="#" class="footer__link">Safe Banking</a></li>
+                        <li><a href="#" class="footer__link">Instant Fund Transfer</a></li>
+                        <li><a href="php/customer_table.php" class="footer__link">Customer Summary</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+                    <ul>
+                        <li>Banking Street</li>
+                        <li>QuickCash Banking</li>
+                        <li>+91-9876543210</li>
+                        <li>quickcashbanking@email.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 QuickCash Banking. All right reserved <br> Developed by: Hari Om</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
